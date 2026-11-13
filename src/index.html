@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Integral | Reserva de horas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Centro Médico Salud Integral</h1>
+        <p>Sistema de reserva de horas médicas</p>
+    </header>
+
+    <main>
+        <section class="tarjeta">
+            <h2>Solicitar hora médica</h2>
+            <p>Complete los siguientes datos para simular una reserva.</p>
+
+            <form>
+                <label for="nombre">Nombre del paciente</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+
+                <label for="especialidad">Especialidad médica</label>
+                <select id="especialidad" required>
+                    <option value="">Seleccione una especialidad</option>
+                    <option>Medicina general</option>
+                    <option>Pediatría</option>
+                    <option>Traumatología</option>
+                    <option>Dermatología</option>
+                </select>
+
+                <label for="fecha">Fecha de atención</label>
+                <input type="date" id="fecha" required>
+
+                <label for="hora">Horario disponible</label>
+                <select id="hora" required>
+                    <option value="">Seleccione un horario</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                </select>
+
+                <button type="button">Simular reserva</button>
+            </form>
+            <p class="aviso">Sitio demostrativo. No registra ni envía información personal.</p>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Información de atención</h2>
+            <p><strong>Horario:</strong> Lunes a viernes, 09:00 a 18:00.</p>
+            <p><strong>Modalidad:</strong> Atención presencial.</p>
+            <p><strong>Especialidades:</strong> Medicina general y especialidades.</p>
+
+            <h2>Estado del servicio</h2>
+            <p class="estado">● Servicio disponible</p>
+            <p>Plataforma demostrativa funcionando en entorno local.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico DevOps - IACC 2026</p>
+    </footer>
+
+</body>
+</html>

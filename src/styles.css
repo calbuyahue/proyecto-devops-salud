@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f6f9;
+    color: #243746;
+}
+
+header {
+    background-color: #176b87;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    flex: 1;
+    min-width: 0;
+}
+
+h2 {
+    color: #176b87;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ccd7df;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+button {
+    background-color: #176b87;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    margin-top: 18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #11526a;
+}
+
+.estado {
+    color: #16834b;
+    font-weight: bold;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #64748b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+
+@media (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+}

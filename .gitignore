@@ -1,0 +1,17 @@
+
+# Configuración privada
+.env
+.env.*
+
+# Permitir archivo de ejemplo
+!.env.example
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Evidencias del informe
+Evidencias_Informe/
+
+# Configuración local del editor
+.vscode/
